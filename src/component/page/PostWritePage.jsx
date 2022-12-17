@@ -34,6 +34,14 @@ const PostWritePage = (props) => {
     <Wrapper>
       <Container>
         <TextInput
+          height={20}
+          value={title}
+          onChange={(event) => {
+            setTitle(event.target.value)
+          }}
+        />
+
+        <TextInput
           height={480}
           value={content}
           onChange={(event) => {

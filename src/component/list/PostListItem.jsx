@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.idv`
+const Wrapper = styled.div`
 	width: calc(100% - 32px);
 	padding: 16px;
 	display: flex;
